@@ -11,20 +11,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="col-12">
-    <div>
+<body>
+    <div class="wallpaper-contacto fixed-top ">
         <!-- navbar -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-toggleable navbar-inverse container">
+        <div class="container-fluid container">
+            <nav class="navbar navbar-toggleable navbar-inverse" style="margin-top: 1.5em;">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="home.html"><img src="images/LOGO ZSPORTS WEB.png"
-                        class="d-inline-block align top" alt="logo-zsport"></a>
+                <a class="navbar-brand" href="home.html">
+                    <img src="images/LOGO ZSPORTS WEB.png" class="d-inline-block align top" alt="logo-zsport">
+                </a>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active" style="margin-right: 26px;">
                             <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -50,23 +51,67 @@
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href=contacto.html>Contacto</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
         <!-- suscripcion -->
-        <div class="container-fluid"></div>
+        <div class="container-fluid d-flex flex-row justify-content-center align-items-center flex-column flex-sm-row">
+            <div class="container-fluid suscripcion d-flex flex-column justify-content-center">
+                <!-- align-items-center"-->
+                <div class="text-white text-left">
+                    <p>Zsports</p>
+                    <h1>Conocenos</h1>
+                    <p>Edificio Empresarial SOHO+ <br>
+                        Tomas Ramsey 930, Of.209, Magdalena</p>
+                    <ul class="list-unstyled  d-flex flex-row">
+                        <ul class="list-unstyled  ">
+                            <li><img src="images/2948025.png" alt="teléfono"> (+511)379 2036| (+51)944 660 574</li>
+                            <li><img src="images/2301129.png" alt="web"> www.zsports.com.pe</li>
+                            <li><img src="images/2089181.png" alt="email"> info@zsports.com.pe</li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li><img src="images/2111392.png" alt="facebook"> /Zsports Perú</li>
+                            <li><img src="images/1384028.png" alt="youtube"> /Zsports Perú</li>
+                            <li><img src="images/2111532.png" alt="linkedin"> /Zsports Perú</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid text-white">
+                <form action="">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="info@continental.com.pe">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Teléfono</label>
+                        <input type="tel" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mensaje</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
