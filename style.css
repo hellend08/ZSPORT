@@ -1,10 +1,11 @@
 /* *{
 	box-sizing: content-box;
-}
+} */
 body{
 	box-sizing: content-box;
 	width: 100%;
-} */
+	background: no-repeat;
+}
 
 h1{
 	color: #25BB42;
@@ -65,6 +66,11 @@ h1{
 .wallpaper-contacto{
 	background-color: #000000;
 }
+
+.wallpaper-blog{
+	background-color: #000000;
+}
+
 .suscripcion{
 	background-size: cover;
 	background-position: center;
