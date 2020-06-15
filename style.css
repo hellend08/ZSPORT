@@ -1,15 +1,17 @@
 /* *{
 	box-sizing: content-box;
 } */
+
+* {
+	scroll-behavior: smooth;
+  }
 body{
 	box-sizing: content-box;
 	width: 100%;
 	background: no-repeat;
 }
 
-h1{
-	color: #25BB42;
-}
+
 
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
@@ -49,6 +51,18 @@ h1{
 		width: 100%;
 	}
 
+	.wallpaper-slide{
+		background-image: url(images/z-sp_Sponsor.png);
+		background-size: cover;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	#couresel-left{
+		Transition: background-image 1s ease 1s;
+	}
+	
 	/* #wallpaper-home{
 		background-image: url(images/z-sp_academies.png); 
 		background: no-repeat;
@@ -77,4 +91,6 @@ h1{
 	height: 500px;
 }
 
-	  
+h1, .trans-di{
+	color: #25BB42;
+}
