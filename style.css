@@ -41,27 +41,6 @@ h1{
 	.social ul li .icon-pinterest {background: #ae181f;}
 	.social ul li .icon-linkedin {background: #25BB42;}
 
-	.wallpaper{
-		background-image: url(images/z-sp_academies.png);
-		background-size: cover;
-		background-position: center;
-		height: 100%;
-		width: 100%;
-	}
-
-	/* #wallpaper-home{
-		background-image: url(images/z-sp_academies.png); 
-		background: no-repeat;
-		padding-bottom: 11.8%;
-		margin: 0;
-		display: inline-block;
-		flex-flow: column wrap;
-		max-width: 100%;
-		max-height: auto;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-	} */
 
 .wallpaper-contacto{
 	background-color: #000000;
@@ -75,6 +54,24 @@ h1{
 	background-size: cover;
 	background-position: center;
 	height: 500px;
+}
+
+.imgintro{
+	top: -150px;
+    left: 0px;
+    width: 1440px;
+    height: 810px;
+    opacity: 1;
+}
+
+.btnintro {
+	top: 577px;
+	left: 643px;
+	width: 155px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	opacity: 1;
 }
 
 	  
