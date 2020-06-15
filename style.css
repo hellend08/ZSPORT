@@ -44,23 +44,28 @@ body{
 	.social ul li .icon-linkedin {background: #25BB42;}
 
 	.wallpaper{
+		/*  */
+		background-size: cover;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.academies{
 		background-image: url(images/z-sp_academies.png);
-		background-size: cover;
-		background-position: center;
-		height: 100%;
-		width: 100%;
 	}
 
-	.wallpaper-slide{
+	.slide{
 		background-image: url(images/z-sp_Sponsor.png);
-		background-size: cover;
-		background-position: center;
-		height: 100%;
-		width: 100%;
 	}
 
-	#couresel-left{
-		Transition: background-image 1s ease 1s;
+	
+	.retail{
+		background-image: url(images/z-sp_eCommerce.png);
+	}
+
+	.lab{
+		background-image: url(images/z_sp_lab.png);
 	}
 	
 	/* #wallpaper-home{
