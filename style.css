@@ -1,17 +1,12 @@
-/* *{
-	box-sizing: content-box;
-} */
-
-* {
-	scroll-behavior: smooth;
-  }
 body{
 	box-sizing: content-box;
 	width: 100%;
 	background: no-repeat;
 }
 
-
+h1{
+	color: #25BB42;
+}
 
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
@@ -44,52 +39,17 @@ body{
 	.social ul li .icon-linkedin {background: #25BB42;}
 
 
-	.wallpaper{
-		/*  */
-		background-size: cover;
-		background-position: center;
-		height: 100%;
-		width: 100%;
-	}
-
-	.academies{
-		background-image: url(images/z-sp_academies.png);
-	}
-
-	.slide{
-		background-image: url(images/z-sp_Sponsor.png);
-	}
-
-	
-	.retail{
-		background-image: url(images/z-sp_eCommerce.png);
-	}
-
-	.lab{
-		background-image: url(images/z_sp_lab.png);
-	}
-	
-	/* #wallpaper-home{
-		background-image: url(images/z-sp_academies.png); 
-		background: no-repeat;
-		padding-bottom: 11.8%;
-		margin: 0;
-		display: inline-block;
-		flex-flow: column wrap;
-		max-width: 100%;
-		max-height: auto;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-	} */
-
-
 .wallpaper-contacto{
 	background-color: #000000;
 }
 
 .wallpaper-blog{
-	background-color: #000000;
+	top: 0px;
+left: 0px;
+width: 1440px;
+height: 1713px;
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .suscripcion{
@@ -97,7 +57,6 @@ body{
 	background-position: center;
 	height: 500px;
 }
-
 
 .imgintro{
 	top: -150px;
@@ -117,7 +76,42 @@ body{
 	opacity: 1;
 }
 
-h1, .trans-di{
-	color: #25BB42;
+.imgnosotros {
+	top: 110px;
+left: 610px;
+width: 1535px;
+height: 700px;
+opacity: 1;
+}
+
+.general {
+	top: 0px;
+left: 0px;
+width: 1440px;
+height: 2894px;
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.display {
+	display: flex;
+	flex-direction: row;
+}
+
+.imglab {
+	top: 74px;
+left: 657px;
+width: 783px;
+height: 587px;
+opacity: 1;
+}
+
+.probando {
+	top: 352px;
+left: 165px;
+width: 350px;
+height: 234px;
+border-radius: 10px;
+opacity: 1;
 }
 
