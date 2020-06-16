@@ -43,6 +43,7 @@ body{
 	.social ul li .icon-pinterest {background: #ae181f;}
 	.social ul li .icon-linkedin {background: #25BB42;}
 
+
 	.wallpaper{
 		/*  */
 		background-size: cover;
@@ -82,6 +83,7 @@ body{
 		align-items: center;
 	} */
 
+
 .wallpaper-contacto{
 	background-color: #000000;
 }
@@ -96,6 +98,26 @@ body{
 	height: 500px;
 }
 
+
+.imgintro{
+	top: -150px;
+    left: 0px;
+    width: 1440px;
+    height: 810px;
+    opacity: 1;
+}
+
+.btnintro {
+	top: 577px;
+	left: 643px;
+	width: 155px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	opacity: 1;
+}
+
 h1, .trans-di{
 	color: #25BB42;
 }
+
