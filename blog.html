@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="wallpaper-blog container-fluid">
-    <div  >
+<body class="wallpaper-blog">
+    <div>
         <!-- navbar -->
         <div class="container-fluid container">
             <nav class="navbar navbar-toggleable navbar-inverse container" style="margin-top: 1.5em;">
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active mr-4">
-                            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="home.html">Inicio<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active mr-4">
                             <a class="nav-link" href="#">Nosotros</a>
@@ -57,6 +57,7 @@
                 </div>
             </nav>
         </div>
+        <!-- cierre navbar -->
         <!-- social bar -->
         <div class="social">
             <ul>
@@ -68,73 +69,86 @@
                             alt=""></a></li>
             </ul>
         </div>
+        <!-- cierre social bar -->
         <!-- entradas -->
         <div class="container my-5">
-            <div><h2>Todas las noticias <br>
-                del mundo deportivo</h2>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">TODOS</a>
+            <div class=" pb-3">
+                <h2 class="mb-5 text-success">Todas las noticias <br>
+                    del mundo deportivo</h2>
+                <ul class="nav nav-tabs " id="myTab" role="tablist">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="false">TODOS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Categoria #1</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Categoria #1</a>
+                        <a class="nav-link text-white" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Categoria #2</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Categoria #2</a>
+                        <a class="nav-link text-white" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Categoria #3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Categoria #3</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Categoria #4</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Categoria #5</a>
-                      </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
+                        <a class="nav-link text-white" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Categoria #4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Categoria #5</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
-                  </div>
-                </div> </br>
-            <div class="display">
+                </div>
+            </div> </br>
+            <div class="display ">
                 <!-- articulo -->
-                    <div style="background-color: black;">
-                        <img class="imgblog" src="images/img1.png" alt="Card image cap">
-                            <h4>EL APAGÓN DEL DEPORTE</h4>
-                            <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en
-                                síntonia
-                                con la decisión de la...</p>
-                            <a href="#" class=""> > Leer más</a>
+                <div class="mr-3" style="background-color: black;">
+                    <img class="imgblog" src="images/img1.png" alt="Card image cap">
+                    <div class="py-3 pr-2">
+                        <h5 class="text-white">EL APAGÓN DEL DEPORTE</h5>
+                        <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en síntonia con la decisión
+                            de la...</p>
+                        <a href="#" class="text-white"> > Leer más</a>
                     </div>
-                    <div style="background-color: black;">
-                        <img class="imgblog" src="images/img2.png" alt="Card image cap">
-                            <h4>EL APAGÓN DEL DEPORTE</h4>
-                            <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en
-                                síntonia
-                                con la decisión de la...</p>
-                            <a href="#" class=""> > Leer más</a>
-                        </div>
-                
-                    <div style="background-color: black;">
-                        <img class="imgblog" src="images/img3.png" alt="Card image cap">
-                            <h4>EL APAGÓN DEL DEPORTE</h4>
-                            <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en
-                                síntonia
-                                con la decisión de la...</p>
-                            <a href="#" class=""> > Leer más</a>
-                        </div>
+
+                </div>
+                <div class="mr-3" style="background-color: black;">
+                    <img class="imgblog" src="images/img2.png" alt="Card image cap">
+                    <div class="py-3 pr-3">
+                        <h5 class="text-white">LOS E SPORTS Y SU CRECIMIENTO EN EL PERÚ</h5>
+                        <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en síntonia con la decisión
+                            de la...</p>
+                        <a href="#" class="text-white"> > Leer más</a>
                     </div>
-                
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+                </div>
+
+                <div class="mr-3" style="background-color: black;">
+                    <img class="imgblog" src="images/img3.png" alt="Card image cap">
+                    <div class="py-3 pr-3">
+                        <h5 class="text-white">TECNOLOGIA APLIICADA AL DEPORTE</h5>
+                        <p>Con el reciente aplazamiento de la CONMEBOL Copa América 2020 - en síntonia con la decisión
+                            de la...</p>
+                        <a href="#" class="text-white"> > Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

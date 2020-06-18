@@ -1,5 +1,6 @@
+
 body{
-	box-sizing: content-box;
+	/* box-sizing: content-box; */
 	width: 100%;
 	background: no-repeat;
 }
@@ -44,10 +45,10 @@ h1{
 }
 
 .wallpaper-blog{
-	top: 0px;
-left: 0px;
-width: 1440px;
-height: 1713px;
+top: 0px;
+/* left: 0px; */
+/* width: 1440px; */
+/* height: 1713px; */
 background: #000000 0% 0% no-repeat padding-box;
 opacity: 1;
 }
