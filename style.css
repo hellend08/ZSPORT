@@ -45,6 +45,7 @@ h1{
 }
 
 .wallpaper-blog{
+
 top: 0px;
 /* left: 0px; */
 /* width: 1440px; */
@@ -78,6 +79,7 @@ opacity: 1;
 }
 
 .imgnosotros {
+	display: inline-block;
 	top: 110px;
 left: 610px;
 width: 1535px;
@@ -94,10 +96,11 @@ background: #000000 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
-.display {
+/* .container-blog {
 	display: flex;
-	flex-direction: row;
-}
+	flex-flow: column;
+
+} */
 
 .imglab {
 	top: 74px;
@@ -114,5 +117,14 @@ width: 350px;
 height: 234px;
 border-radius: 10px;
 opacity: 1;
+}
+
+.footer-triangulo{
+	display: flex;
+	width: 0;
+	height: 0;
+	background-color: #25BB42;
+	border-right: 50px solid #FFFFFF;
+	border-left: 50px solid #FFFFFF;
 }
 
