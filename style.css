@@ -120,12 +120,16 @@ opacity: 1;
 }
 
 .footer-triangulo{
-	display: flex;
+	float: left;
 	width: 0;
 	height: 0;
-	background-color: #25BB42;
+	/* background-color: #25BB42;
 	border-right: 50px solid #FFFFFF;
-	border-left: 50px solid #FFFFFF;
+	border-left: 50px solid #FFFFFF; */
+	border-right: 70px solid transparent;
+     border-top: 70px solid transparent;
+     border-left: 70px solid #25BB42;
+     border-bottom: 70px solid #25BB42;
 }
 
 @media(max-width:767px){
