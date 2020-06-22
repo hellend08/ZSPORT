@@ -5,8 +5,12 @@ body{
 	background: no-repeat;
 }
 
-h1{
+.color-green{
 	color: #25BB42;
+}
+
+.color-black{
+	background-color: #000000;
 }
 
 .social {
@@ -44,15 +48,15 @@ h1{
 	background-color: #000000;
 }
 
-.wallpaper-blog{
+/* .wallpaper-blog{
 
-top: 0px;
+top: 0px; */
 /* left: 0px; */
-/* width: 1440px; */
-/* height: 1713px; */
-background: #000000 0% 0% no-repeat padding-box;
+/* width: 100%;
+height: 660px; */
+/* background: #000000 0% 0% no-repeat padding-box;
 opacity: 1;
-}
+} */
 
 .suscripcion{
 	background-size: cover;
@@ -132,7 +136,7 @@ opacity: 1;
      border-bottom: 70px solid #25BB42;
 }
 
-@media(max-width:767px){
+/* @media(max-width:767px){
 	.col-xs-12{width: 100%;}
 	.col-xs-6{width: 50%;}
 	.col-xs-4{width: 33.33333333%;}
@@ -144,6 +148,7 @@ opacity: 1;
 	.col-md-6{width: 50%;}
 	.col-md-4{width: 33.33333333%;}
 	.col-md-3{width: 25%;}
+
 }
 
 .fle {
@@ -169,3 +174,6 @@ border: 2px solid #25BB42;
 opacity: 1;
 border-radius: 300px 300px 300px 300px;
 }
+=======
+} */
+
