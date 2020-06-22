@@ -79,11 +79,11 @@ opacity: 1;
 }
 
 .imgnosotros {
-	display: inline-block;
 	top: 110px;
 left: 610px;
 width: 1535px;
 height: 700px;
+background: transparent url('img/100731626_2973487362745704_3818397973943943168_n.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
@@ -144,4 +144,28 @@ opacity: 1;
 	.col-md-6{width: 50%;}
 	.col-md-4{width: 33.33333333%;}
 	.col-md-3{width: 25%;}
+}
+
+.fle {
+	display: flex;
+	justify-content: end;
+}
+
+.bordecuadrado {
+	top: 3210px;
+left: 392px;
+width: 203px;
+height: 235px;
+border: 2px solid #25BB42;
+opacity: 1;
+}
+
+.borderedondo {
+	top: 3650px;
+left: 165px;
+width: 200px;
+height: 200px;
+border: 2px solid #25BB42;
+opacity: 1;
+border-radius: 300px 300px 300px 300px;
 }
