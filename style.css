@@ -255,3 +255,42 @@ border-radius: 300px 300px 300px 300px;
 		color: #25BB42;
 		text-decoration: none;
 	}
+
+	.bcb {
+		background-color: #000000;
+	}
+
+	.mt {
+		margin-top: 1.5em;
+	}
+
+	.pad {
+		padding: 10%;
+	}
+
+	.discontacto {
+		display: flex; 
+		justify-content: center; 
+		justify-content: space-around;
+	}
+
+	.df {
+		display: flex;
+	}
+
+	.text-green {
+		color: #25BB42;
+	}
+	
+	.disformas {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center; 
+		align-items: center;
+	}
+
+	.baseline {
+		display: flex; 
+		justify-content: space-around; 
+		align-items: baseline;
+	}
