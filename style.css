@@ -161,6 +161,7 @@ left: 392px;
 width: 203px;
 height: 235px;
 border: 2px solid #25BB42;
+border-radius: 0px 60px 0px 60px;
 opacity: 1;
 }
 
@@ -178,6 +179,8 @@ border-radius: 300px 300px 300px 300px;
 	border-radius: 50px 50px 50px 50px; 
 	border: 1px solid white; 
 	padding: 3px;
+	width: 20px;
+	height: 20px;
 }
 
 .padding {
@@ -251,4 +254,43 @@ border-radius: 300px 300px 300px 300px;
 	.secondary-btn:hover{
 		color: #25BB42;
 		text-decoration: none;
+	}
+
+	.bcb {
+		background-color: #000000;
+	}
+
+	.mt {
+		margin-top: 1.5em;
+	}
+
+	.pad {
+		padding: 10%;
+	}
+
+	.discontacto {
+		display: flex; 
+		justify-content: center; 
+		justify-content: space-around;
+	}
+
+	.df {
+		display: flex;
+	}
+
+	.text-green {
+		color: #25BB42;
+	}
+	
+	.disformas {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center; 
+		align-items: center;
+	}
+
+	.baseline {
+		display: flex; 
+		justify-content: space-around; 
+		align-items: baseline;
 	}
